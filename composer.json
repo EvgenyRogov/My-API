@@ -1,0 +1,12 @@
+{
+    "name": "evgeny/api",
+    "authors": [
+        {
+            "name": "Evgeny Rogov",
+            "email": "dantepclol@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
