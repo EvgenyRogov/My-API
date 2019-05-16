@@ -9,7 +9,7 @@ $app = new \Slim\App();
 
 $app->get('/', function()
 {
-	require_once $_SERVER['DOCUMENT_ROOT'].'/index.html';
+	require_once $_SERVER['DOCUMENT_ROOT'].'/submit.html';
 });
 
 $app->get('/retrive/{id}', function (Request $request, Response $response) {
